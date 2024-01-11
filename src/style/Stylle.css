@@ -1,0 +1,74 @@
+button {
+    width: 100%;
+    color: rgb(182, 170, 170);
+    background-color: black;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(162, 24, 24);
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(233, 228, 122);
+    color: white;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+
+}
+
+/* Style.css */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    /* Center the content */
+}
+
+li {
+    display: inline-block;
+    /* Display list items in a line */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.container {
+    margin-top: 20px;
+}
