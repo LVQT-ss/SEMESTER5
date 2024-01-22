@@ -6,7 +6,7 @@ export default function Content() {
         <div className='container'>
             <div className='row'>
                 {Players.map((player, index) => (
-                    <div className='col-md-4' key={index}>
+                    <div className='col-md-3' key={index}>
                         <div className='card'>
                             <img src={player.img} alt={player.name} />
                             <h3>{player.name}</h3>
