@@ -1,0 +1,25 @@
+.container-detail{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 70px;
+
+}
+
+
+
+.detail-anh{
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+}
+
+.container-detail-content{
+    padding-left: 20px;
+}
+
+.tieude{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,54 @@
+/* Define styles for the card container */
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+/* Style for individual card elements */
+.card {
+    border: 1px solid #ddd;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+/* Header of the card */
+.card-header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+/* Body of the card */
+.card-body {
+    padding-top: 10px;
+}
+
+/* Footer of the card */
+.card-footer {
+    text-align: center;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.anh-nho {
+    position: relative;
+    top: 5px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 30%;
+}
+
+.btdt {
+    width: 100%;
+    height: 100%;
+}

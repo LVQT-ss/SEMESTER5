@@ -1,0 +1,71 @@
+.staff-table {
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+button {
+    padding: 6px 11px;
+    background-color: rgb(0, 38, 255);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a048;
+}
+.nutupdate{
+    margin-top: 10px;
+    padding: 6px 12px;
+}
+
+.btn-add {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.add-staff-btn {
+    color: rgb(39, 44, 71);
+    background-color: transparent;
+    border: 2px solid rgb(0, 38, 255);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s all linear;
+    position: absolute;
+    top: -28px;
+    right: 20px;
+}
+
+.add-staff-btn:hover {
+    background-color: #3a2ee2;
+}
+
+.anh-nho-dt {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
